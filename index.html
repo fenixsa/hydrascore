@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+    
+<head>
+<meta charset="utf-8">
+    <title>Serasa Experian</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="favicon.png">
+</head>
+    
+<body>
+    <div class="tela">
+        <div class="score-doc">
+            <div class="lateral">
+                <div class="logo">
+                    <img src="logo.svg" alt="Serasa Experian">            
+                </div>
+                <div class="menu">
+                    <div class="opcao-not">
+                        <img src="Icones/home.svg" alt="Ícone">
+                        <div class="menu-texto">Início</div>
+                    </div>
+                    <div class="opcao-not">
+                        <img src="Icones/stethoscope.svg" alt="Ícone">
+                        <div class="menu-texto">Saúde do seu Negócio</div>
+                    </div>
+                    <div class="opcao-select">
+                        <img src="Icones/find_in_page.svg" alt="Ícone">
+                        <div class="menu-texto">Consulta CPF/CNPJ</div>
+                    </div>
+                    <div class="opcao-not">
+                        <img src="Icones/radar.svg" alt="Ícone">
+                        <div class="menu-texto">Monitore Clientes</div>
+                    </div>
+                    <div class="opcao-not">
+                        <img src="Icones/monetization_on.svg" alt="Ícone">
+                        <div class="menu-texto">Recuperação de Dívidas</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagina">
+                <div class="cabecalho">
+                    <div class="left-side">
+                        <img src="Icones/menu.svg" alt="Menu">
+                        <div class="titulo">Consulta CPF/CNPJ</div>
+                    </div>
+                    <div class="right-side">
+                        <img src="Icones/person.svg" alt="Usuário">
+                    </div>
+                </div>
+                <div class="consulta-completa">
+                    <div class="consulta-cabecalho">
+                        <div class="consulta-secao1">
+                            <div class="secao1-texto">Você realizou uma consulta completa</div>
+                            <div class="secao1-botoes">
+                                <div class="botao-nova botao-texto">Nova consulta</div>
+                                <div class="botao-historico botao-texto">Histórico de consultas</div>
+                                <div class="botao-imprimir botao-texto">
+                                    <img src="Icones/print.svg" alt="Imprimir">
+                                    Imprimir
+                                </div>
+                                <div class="botao-pdf botao-texto">
+                                    <img src="Icones/picture_as_pdf.svg" alt="Baixar PDF">
+                                    Baixar PDF
+                                </div>
+                            </div>
+                        </div>
+                        <div class="consulta-secao2">
+                            <input class="razao-social" name="Razão Social" placeholder="RAZÃO SOCIAL ou NOME">
+                            <div class="cnpj-area">
+                                <div class="cnpj-tag" id="doc-score">CNPJ:</div>
+                                <input class="cnpj" name="CNPJ" id="input-cnpj" placeholder="00.000.000/0001-00">
+                            </div>
+                        </div>
+                        <div class="consulta-secao3">
+                            <div class="opcao-on">
+                                <div class="opcao-ativa">
+                                    <img src="Icones/speed.svg" alt="Ícone">
+                                    <div class="opcao-texto">Serasa Score</div>
+                                </div>
+                                <div class="borda"></div>
+                            </div>
+                            <div class="opcao">
+                                <img src="Icones/insert_chart.svg" alt="Ícone">
+                                <div class="opcao-texto">Detalhes financeiros</div>
+                            </div>
+                            <div class="opcao">
+                                <img src="Icones/paid.svg" alt="Ícone">
+                                <div class="opcao-texto">Dívidas em aberto</div>
+                            </div>
+                            <div class="opcao">
+                                <img src="Icones/content_paste_search.svg" alt="Ícone">
+                                <div class="opcao-texto">Consultas à Serasa</div>
+                            </div>
+                            <div class="opcao">
+                                <img src="Icones/group.svg" alt="Ícone">
+                                <div class="opcao-texto">Controle societário</div>
+                            </div>
+                            <div class="opcao">
+                                <img src="Icones/playlist_add_check.svg" alt="Ícone">
+                                <div class="opcao-texto">Informações cadastrais</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="score-area">
+                        <div class="score-grafico">
+                            <div class="score-titulos" id="score-titulo">Score do CNPJ consultado</div>
+                            <div class="grafico-area">
+                                <div class="grafico-info">
+                                    <img src="Icones/info.svg" alt="Info">
+                                </div>
+                                <div class="grafico">
+                                    <img src="Score/inativo.svg" alt="Score">
+                                </div>
+                                <div class="grafico-score">
+                                    <div class="score" id="score">?</div>
+                                    <div class="score-mil">/1000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="score-sobre">
+                            <div class="score-titulos">Sobre esta consulta</div>
+                            <div class="sobre-botoes">
+                                <div class="solicitar">
+                                    <div class="solicitar-left">
+                                        <img src="Icones/keyboard_double_arrow_up.svg" alt="Ícone">
+                                        <div class="solicitar-descricao">Solicitar aumento de Score</div>
+                                    </div>
+                                <div class="solicitar-botao">Solicitar</div>
+                                </div>
+                                <div class="sobre-simples1">
+                                    <div class="simples-left">
+                                        <img src="Icones/task_alt.svg" alt="Ícone">
+                                        <div class="simples-descricao">Para esta negociação considere a solicitação de aumento de Score.</div>
+                                    </div>
+                                </div>
+                                <div class="sobre-simples2">
+                                    <div class="simples-left">
+                                        <img src="Icones/auto_graph.svg" alt="Ícone">
+                                        <div class="simples-descricao">Este Score está em conformidade com as análises do Serasa.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="obs">O resultado acima não é uma opinião ou sugestão da Serasa Experian, representa apenas a prática de mercado a partir de análises estatísticas que consideram informações constantes em sua base de dados. A avaliação e decisão de fazer ou não negócios é responsabilidade exclusiva do cliente.</div>
+                    <div class="detalhes-area">
+                        <div class="detalhes-cabecalho">
+                            <div class="cabecalho-left">
+                                <img src="Icones/insert_chart2.svg" alt="Ícone">
+                                <div class="detalhes-titulo">Detalhes financeiros</div>
+                            </div>
+                            <img src="Icones/keyboard_arrow_up.svg" alt="Seta">
+                        </div>
+                        <div class="detalhes-div"></div>
+                        <div class="limite-area">
+                            <img src="Icones/monetization_on2.svg" alt="Ícone">
+                            <div class="limite-conteudo">
+                                <div class="limite-pre">Limite de crédito disponível: R$</div>
+                                <div class="limite-valor" id="limite-valor">VALOR</div>
+                                <img src="Icones/info2.svg" alt="Info">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="config">
+            <div class="container-tipo">
+                <div class="config-head">Tipo de Score</div>
+                <div class="segmented-control">
+                    <input type="radio" id="cnpj" name="documento" value="cnpj" checked>
+                    <label for="cnpj">CNPJ</label>
+                    <input type="radio" id="cpf" name="documento" value="cpf">
+                    <label for="cpf">CPF</label>
+                </div>
+                <div class="segmented-control">
+                    <input type="radio" id="consulta" name="tipo" value="consulta" checked>
+                    <label for="consulta">Consulta</label>
+                    <input type="radio" id="aumento" name="tipo" value="aumento">
+                    <label for="aumento">Aumento</label>
+                </div>
+            </div>
+            <input id="inputSCORE" type="text" placeholder="Pontuação" class="config-dados">
+            <input id="inputLIMITE" type="text" placeholder="Limite" class="config-dados">
+            <button id="botao-imprimir">EXPORTAR</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
