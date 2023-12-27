@@ -209,6 +209,7 @@ input {
     border: none;
     background-color: transparent;
     padding: 0px;
+    cursor: pointer;
 }
 
 .razao-social {
